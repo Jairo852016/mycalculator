@@ -40,7 +40,7 @@ func parsear(entrada string) int {
 	return operador1
 
 }
-func leerEntrada() string {
+func LeerEntrada() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	return scanner.Text()
